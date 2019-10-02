@@ -277,6 +277,7 @@ public final class CheckList {
       VarDeclarationCheck.class,
       VariableDeclarationAfterUsageCheck.class,
       VariableDeclarationWithoutVarCheck.class,
+      VariableNameCheck.class,
       VariableShadowingCheck.class,
       VoidUseCheck.class,
       WebSQLDatabaseCheck.class,

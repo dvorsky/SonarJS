@@ -36,6 +36,7 @@ import { rule as regularExpr } from "./regular-expr";
 import { rule as sockets } from "./sockets";
 import { rule as sqlQueries } from "./sql-queries";
 import { rule as standardInput } from "./standard-input";
+import { rule as variableName } from "./variable-name";
 import { rule as xpath } from "./xpath";
 
 const ruleModules: { [key: string]: Rule.RuleModule } = {};
@@ -58,6 +59,7 @@ ruleModules["regular-expr"] = regularExpr;
 ruleModules["sockets"] = sockets;
 ruleModules["sql-queries"] = sqlQueries;
 ruleModules["standard-input"] = standardInput;
+ruleModules["variable-name"] = variableName;
 ruleModules["xpath"] = xpath;
 
 export { ruleModules as rules };
