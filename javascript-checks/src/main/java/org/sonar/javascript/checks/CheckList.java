@@ -184,6 +184,7 @@ public final class CheckList {
       NoInvertedBooleanCheckCheck.class,
       NoNestedSwitchCheck.class,
       NoMagicNumbersCheck.class,
+      NoRedundantJumpCheck.class,
       NoRequireImportsCheck.class,
       NoThisAliasCheck.class,
       NonCaseLabelInSwitchCheck.class,
